@@ -8,6 +8,7 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
+gem 'pry'
 
 group :doc do
   gem 'sdoc', require: false
