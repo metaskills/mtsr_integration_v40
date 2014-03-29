@@ -6,4 +6,12 @@ module UsersHelper
     end
   end
 
+  def return_users_path
+    users_path
+  end
+
+  def return_users_url
+    users_url
+  end
+
 end
