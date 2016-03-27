@@ -1,6 +1,8 @@
 require 'test_helper'
 
-class UsersControllerTest < ActionController::TestCase
+class SpecialUsersControllerTest < ActionController::TestCase
+
+  tests UsersController
 
   it 'tests the controller index action' do
     get :index
